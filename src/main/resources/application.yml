@@ -1,0 +1,11 @@
+spring:
+  thymeleaf:
+    mode: HTML
+    cache: false
+  profiles:
+    active: dev
+#  mvc:
+#    static-path-pattern: /static/**
+
+comment.avatar: /images/avatar.jpg
+

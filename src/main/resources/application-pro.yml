@@ -1,0 +1,19 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  datasource:
+    url: jdbc:mysql://localhost:3306/myblog1
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+logging:
+  level:
+    root: warn
+    com.pony: info
+  file:
+    path: log/myblog1-pro.log
+server:
+  port: 8081

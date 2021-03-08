@@ -1,0 +1,120 @@
+2021-03-08 16:20:04.278  INFO 21156 --- [restartedMain] com.pony.Myblog1Application              : Starting Myblog1Application on pony with PID 21156 (E:\IDEA\project\myblog1\target\classes started by liner in E:\IDEA\project\myblog1)
+2021-03-08 16:20:04.287 DEBUG 21156 --- [restartedMain] com.pony.Myblog1Application              : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-03-08 16:20:04.288  INFO 21156 --- [restartedMain] com.pony.Myblog1Application              : The following profiles are active: dev
+2021-03-08 16:20:04.386  INFO 21156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-08 16:20:04.388  INFO 21156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-08 16:20:05.959  INFO 21156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-08 16:20:06.076  INFO 21156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104ms. Found 5 JPA repository interfaces.
+2021-03-08 16:20:06.895  INFO 21156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-08 16:20:06.907  INFO 21156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-08 16:20:06.908  INFO 21156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-03-08 16:20:07.026  INFO 21156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-08 16:20:07.026  INFO 21156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2637 ms
+2021-03-08 16:20:07.214  INFO 21156 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 16:20:07.277  INFO 21156 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 16:20:07.347  INFO 21156 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2021-03-08 16:20:07.499  WARN 21156 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 16:20:07.524  INFO 21156 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-08 16:20:07.672  INFO 21156 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-08 16:20:08.086  INFO 21156 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-08 16:20:08.239  INFO 21156 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-08 16:20:08.262  INFO 21156 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-08 16:20:08.882  INFO 21156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-08 16:20:08.949  INFO 21156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-08 16:20:08.952  INFO 21156 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-03-08 16:20:09.287  INFO 21156 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 16:20:09.296  INFO 21156 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 16:20:09.848  INFO 21156 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-03-08 16:20:09.856  INFO 21156 --- [restartedMain] com.pony.Myblog1Application              : Started Myblog1Application in 6.284 seconds (JVM running for 8.288)
+2021-03-08 16:20:16.926  INFO 21156 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 16:20:16.926  INFO 21156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-08 16:20:16.942  INFO 21156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2021-03-08 16:20:16.968  INFO 21156 --- [http-nio-8080-exec-1] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2021-03-08 16:20:17.085  WARN 21156 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-03-08 16:20:17.098  WARN 21156 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-03-08 16:20:17.130  INFO 21156 --- [http-nio-8080-exec-1] com.pony.aspect.LogAspect                : result : index
+2021-03-08 16:20:18.292  INFO 21156 --- [http-nio-8080-exec-5] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:20:18.303  INFO 21156 --- [http-nio-8080-exec-5] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:20:32.231  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/81', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.blog', args=[81, {}]}
+2021-03-08 16:20:32.338  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : result : blog
+2021-03-08 16:20:32.982  INFO 21156 --- [http-nio-8080-exec-7] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:20:32.994  INFO 21156 --- [http-nio-8080-exec-7] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:20:41.292  INFO 21156 --- [http-nio-8080-exec-1] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/52', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.blog', args=[52, {}]}
+2021-03-08 16:20:41.325  INFO 21156 --- [http-nio-8080-exec-1] com.pony.aspect.LogAspect                : result : blog
+2021-03-08 16:20:41.872  INFO 21156 --- [http-nio-8080-exec-9] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:20:41.881  INFO 21156 --- [http-nio-8080-exec-9] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:20:46.601  INFO 21156 --- [http-nio-8080-exec-8] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/49', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.blog', args=[49, {}]}
+2021-03-08 16:20:46.626  INFO 21156 --- [http-nio-8080-exec-8] com.pony.aspect.LogAspect                : result : blog
+2021-03-08 16:20:47.177  INFO 21156 --- [http-nio-8080-exec-2] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:20:47.186  INFO 21156 --- [http-nio-8080-exec-2] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:20:47.429  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/comments/49', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.CommentController.comments', args=[49, {}]}
+2021-03-08 16:20:47.472  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : result : blog :: commentList
+2021-03-08 16:21:06.155  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/archives/', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.ArchiveShowController.archives', args=[{}]}
+2021-03-08 16:21:06.185  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : result : archives
+2021-03-08 16:21:06.837  INFO 21156 --- [http-nio-8080-exec-1] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:21:06.848  INFO 21156 --- [http-nio-8080-exec-1] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:21:13.614  INFO 21156 --- [http-nio-8080-exec-10] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/81', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.blog', args=[81, {}]}
+2021-03-08 16:21:13.639  INFO 21156 --- [http-nio-8080-exec-10] com.pony.aspect.LogAspect                : result : blog
+2021-03-08 16:21:14.148  INFO 21156 --- [http-nio-8080-exec-7] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:21:14.158  INFO 21156 --- [http-nio-8080-exec-7] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:21:19.275  INFO 21156 --- [http-nio-8080-exec-9] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/57', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.blog', args=[57, {}]}
+2021-03-08 16:21:19.303  INFO 21156 --- [http-nio-8080-exec-9] com.pony.aspect.LogAspect                : result : blog
+2021-03-08 16:21:19.894  INFO 21156 --- [http-nio-8080-exec-6] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:21:19.904  INFO 21156 --- [http-nio-8080-exec-6] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:21:20.103  INFO 21156 --- [http-nio-8080-exec-2] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/comments/57', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.CommentController.comments', args=[57, {}]}
+2021-03-08 16:21:20.112  INFO 21156 --- [http-nio-8080-exec-2] com.pony.aspect.LogAspect                : result : blog :: commentList
+2021-03-08 16:21:23.149  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/52', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.blog', args=[52, {}]}
+2021-03-08 16:21:23.188  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : result : blog
+2021-03-08 16:21:23.709  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:21:23.718  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:21:30.298  INFO 21156 --- [http-nio-8080-exec-10] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/49', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.blog', args=[49, {}]}
+2021-03-08 16:21:30.323  INFO 21156 --- [http-nio-8080-exec-10] com.pony.aspect.LogAspect                : result : blog
+2021-03-08 16:21:30.949  INFO 21156 --- [http-nio-8080-exec-7] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:21:30.957  INFO 21156 --- [http-nio-8080-exec-7] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:21:31.129  INFO 21156 --- [http-nio-8080-exec-2] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/comments/49', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.CommentController.comments', args=[49, {}]}
+2021-03-08 16:21:31.132  INFO 21156 --- [http-nio-8080-exec-2] com.pony.aspect.LogAspect                : result : blog :: commentList
+2021-03-08 16:21:36.428  INFO 21156 --- [http-nio-8080-exec-9] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/56', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.blog', args=[56, {}]}
+2021-03-08 16:21:36.461  INFO 21156 --- [http-nio-8080-exec-9] com.pony.aspect.LogAspect                : result : blog
+2021-03-08 16:21:37.110  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:21:37.117  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:21:37.297  INFO 21156 --- [http-nio-8080-exec-1] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/comments/56', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.CommentController.comments', args=[56, {}]}
+2021-03-08 16:21:37.356  INFO 21156 --- [http-nio-8080-exec-1] com.pony.aspect.LogAspect                : result : blog :: commentList
+2021-03-08 16:29:50.709  WARN 21156 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [299] milliseconds.
+2021-03-08 16:30:53.564  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2021-03-08 16:30:53.578  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : result : index
+2021-03-08 16:30:54.057  INFO 21156 --- [http-nio-8080-exec-10] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:30:54.063  INFO 21156 --- [http-nio-8080-exec-10] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:34:46.926  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.search', args=[Page request [number: 0, size 10, sort: updateTime: DESC], spring, {}]}
+2021-03-08 16:34:46.939  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : result : search
+2021-03-08 16:34:55.770  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2021-03-08 16:34:55.785  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : result : index
+2021-03-08 16:34:56.207  INFO 21156 --- [http-nio-8080-exec-5] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:34:56.213  INFO 21156 --- [http-nio-8080-exec-5] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:35:00.911  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.search', args=[Page request [number: 0, size 10, sort: updateTime: DESC], la, {}]}
+2021-03-08 16:35:00.917  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : result : search
+2021-03-08 16:38:27.749  INFO 21156 --- [http-nio-8080-exec-9] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.TypeShowController.types', args=[Page request [number: 0, size 10, sort: updateTime: DESC], -1, {}]}
+2021-03-08 16:38:27.764  INFO 21156 --- [http-nio-8080-exec-9] com.pony.aspect.LogAspect                : result : types
+2021-03-08 16:38:28.233  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:38:28.239  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:38:34.868  INFO 21156 --- [http-nio-8080-exec-6] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.search', args=[Page request [number: 0, size 10, sort: updateTime: DESC], 翻译, {}]}
+2021-03-08 16:38:34.874  INFO 21156 --- [http-nio-8080-exec-6] com.pony.aspect.LogAspect                : result : search
+2021-03-08 16:40:52.961  INFO 21156 --- [http-nio-8080-exec-6] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.TypeShowController.types', args=[Page request [number: 0, size 10, sort: updateTime: DESC], -1, {}]}
+2021-03-08 16:40:52.969  INFO 21156 --- [http-nio-8080-exec-6] com.pony.aspect.LogAspect                : result : types
+2021-03-08 16:40:53.393  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:40:53.399  INFO 21156 --- [http-nio-8080-exec-4] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:40:55.734  INFO 21156 --- [http-nio-8080-exec-1] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/49', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.blog', args=[49, {}]}
+2021-03-08 16:40:55.756  INFO 21156 --- [http-nio-8080-exec-1] com.pony.aspect.LogAspect                : result : blog
+2021-03-08 16:40:56.270  INFO 21156 --- [http-nio-8080-exec-2] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:40:56.276  INFO 21156 --- [http-nio-8080-exec-2] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:40:56.425  INFO 21156 --- [http-nio-8080-exec-7] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/comments/49', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.CommentController.comments', args=[49, {}]}
+2021-03-08 16:40:56.428  INFO 21156 --- [http-nio-8080-exec-7] com.pony.aspect.LogAspect                : result : blog :: commentList
+2021-03-08 16:41:31.702  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.CommentController.post', args=[com.pony.domain.Comment@7588ed74, org.apache.catalina.session.StandardSessionFacade@10798a5]}
+2021-03-08 16:41:31.830  INFO 21156 --- [http-nio-8080-exec-3] com.pony.aspect.LogAspect                : result : redirect:/comments/49
+2021-03-08 16:41:31.835  INFO 21156 --- [http-nio-8080-exec-8] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/comments/49', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.CommentController.comments', args=[49, {}]}
+2021-03-08 16:41:31.842  INFO 21156 --- [http-nio-8080-exec-8] com.pony.aspect.LogAspect                : result : blog :: commentList
+2021-03-08 16:47:03.656  INFO 21156 --- [http-nio-8080-exec-2] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.AboutController.about', args=[]}
+2021-03-08 16:47:03.658  INFO 21156 --- [http-nio-8080-exec-2] com.pony.aspect.LogAspect                : result : about
+2021-03-08 16:47:04.194  INFO 21156 --- [http-nio-8080-exec-6] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:47:04.201  INFO 21156 --- [http-nio-8080-exec-6] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
+2021-03-08 16:47:11.053  INFO 21156 --- [http-nio-8080-exec-7] com.pony.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/footer/latestBlogs', ip='0:0:0:0:0:0:0:1', classMethod='com.pony.web.IndexController.latestBlogs', args=[{}]}
+2021-03-08 16:47:11.060  INFO 21156 --- [http-nio-8080-exec-7] com.pony.aspect.LogAspect                : result : _fragments :: latestBlogList
